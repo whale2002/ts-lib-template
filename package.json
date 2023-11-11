@@ -8,7 +8,9 @@
     "dev": "father dev",
     "build": "father build",
     "build:deps": "father prebundle",
-    "prepublishOnly": "father doctor && npm run build"
+    "prepublishOnly": "father doctor && npm run build",
+    "changeset:version": "sh scripts/version.sh",
+    "release": "node ./scripts/release.js"
   },
   "keywords": [],
   "authors": [],
@@ -21,7 +23,9 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "father": "^4.3.7"
+    "execa": "^8.0.1",
+    "father": "^4.3.7",
+    "jsonfile": "^6.1.0"
   },
   "author": {
     "name": "haoyu.qin",

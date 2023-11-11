@@ -18,6 +18,8 @@ $ npm run build
 
 TODO
 
+-[] 接入 changeset
+
 ## LICENSE
 
 MIT
