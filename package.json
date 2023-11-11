@@ -1,5 +1,5 @@
 {
-  "name": "ts-lib-template",
+  "name": "@whale2002/ts-lib-template",
   "version": "0.0.1",
   "description": "ts-lib-template built by father",
   "module": "es/index.js",
