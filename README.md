@@ -18,7 +18,7 @@ $ npm run build
 
 TODO
 
--[] 接入 changeset
+-[ ] 接入 changeset
 
 ## LICENSE
 
