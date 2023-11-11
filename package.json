@@ -17,7 +17,8 @@
     "esm"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "father": "^4.3.7"
